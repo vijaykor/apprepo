@@ -1,1 +1,1 @@
-web: gunicorn --bind :$PORT api.py
+web: python --bind :$PORT api.py
